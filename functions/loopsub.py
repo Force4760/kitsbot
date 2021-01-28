@@ -33,7 +33,7 @@ def loopSub(sub, minimum):
             if dayMe >= 7:
                 #if in last week
                 if (dayPost >= dayMe - 6) and (dayPost <= dayMe):
-                    kitlist.append([title, timeStr, author, link])
+                    kitlist.append([title, timeStr, author, score, link])
             else:
                 #number of days in last month
                 now = datetime.now()
@@ -44,8 +44,8 @@ def loopSub(sub, minimum):
 
                 #if in last week
                 if (dayPost >= 1) and (dayPost <= dayMe):
-                    kitlist.append([title, timeStr, author, link])
+                    kitlist.append([title, timeStr, author, score, link])
                 
                 if (dayPost > newDay - (7-dayMe)) and (dayPost <= newDay):
-                    kitlist.append([title, timeStr, author, link])
+                    kitlist.append([title, timeStr, author, score, link])
     return kitlist

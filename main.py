@@ -19,7 +19,7 @@ dksub = reddit.subreddit("drumkits")
 lksub = reddit.subreddit("loopkits")
 
 #Drum kits
-dkKits = loopSub(dksub, 15)
+dkKits = loopSub(dksub, 20)
 dkKits = subtt(dkKits)
 
 #Loop kits

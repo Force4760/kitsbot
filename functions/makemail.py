@@ -20,5 +20,5 @@ def makeMail(drum, loop):
     date = dateRange()
     
     #output
-    output = "\n" + html_start + """<div class="bg">""" + "<h1>Reddit Kits ("+ date + ")</h1>" + """<div class="list">\n""" + "<h2>DrumKits 🥁</h2>\n" + drum + "\n<h2>LoopKits 🔁</h2>\n" + loop + "\n</div>\n" + html_end
+    output = "\n" + html_start + """<div class="bg">""" + "<h1>Reddit Kits ("+ date + ")</h1>" + """<div class="list">\n""" + "<hr>\n<h2>DrumKits 🥁</h2>\n<ul>\n" + drum + "\n</ul>\n<hr>\n<h2>LoopKits 🔁</h2>\n<ul>\n" + loop + "\n</ul>\n</div>\n" + html_end
     return output

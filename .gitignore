@@ -1,1 +1,3 @@
-/secret
+passw.py
+venv/*
+*/__pycache__/*

@@ -1,7 +1,7 @@
 #import modules
 import time
-from functions.timeconvert import tcon
-from functions.daysinmonth import daysInMonth
+from .timeconvert import tcon
+from .daysinmonth import daysInMonth
 from datetime import date, datetime
 
 def loopSub(sub, minimum):

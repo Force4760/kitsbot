@@ -28,7 +28,7 @@ SLEEP = 1
 MSG = """
 **════ WHO AM I ════ **
 I'm a reddit/discord bot that a lazy music producer made so that he did not need to browse through reddit posts to find good kits.  
-    
+
 **════ WHO'S DOOM ════ **
 DOOM (or MF DOOM) is one of the greatest rappers ever. Look it up, you wont regret it.
     
@@ -37,6 +37,12 @@ DOOM (or MF DOOM) is one of the greatest rappers ever. Look it up, you wont regr
 **>drums MinimunScore** : Best r/drumkits kits
 **>loops MinimumScore** : Best r/loopkits kits
 *MinimumScore is a number you can provide to change the minimum score a kits should have.*
+
+***════ Socials ════ ***
+**GitHub:** https://github.com/Force476
+**SoundCloud:** https://soundcloud.com/g-force-beats
+**Instagram: ** https://www.instagram.com/force_4760/
+**Website: ** https://force4760.netlify.app/
 
 ***ALL CAPS WHEN U SPELL THE MAN NAME***
 """
